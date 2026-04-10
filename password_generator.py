@@ -1,6 +1,7 @@
 import secrets
 import string
 
+
 def generate_strong_password(length):
     alphabet = string.ascii_letters + string.digits + string.punctuation
     
